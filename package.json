@@ -4,12 +4,17 @@
   "description": "test chartjs to png",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Roberto Marchetti",
   "license": "ISC",
   "dependencies": {
     "chart.js": "^2.7.2",
     "chartjs-node": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmarchet/test-chartjs-node.git"
   }
 }
