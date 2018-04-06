@@ -21,6 +21,8 @@ If running on MacOS you probably need to install some packages with Brew and the
 brew install pkg-config cairo libpng jpeg giflib
 ```
 
+On Windows you'll need to install Python (needed to build some dependencies of chartjs-node)
+
 The following configuration:
 
 ```
