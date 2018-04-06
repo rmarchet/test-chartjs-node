@@ -2,6 +2,25 @@
 
 This script is intended to test chartjs-node and create a PNG image starting from a Chart.js configuration
 
+## Getting Started
+To get things started just clone this project and run:
+```
+npm install
+```
+and then:
+```
+npm start
+```
+or
+```
+node index.js
+```
+
+If running on MacOS you probably need to install some packages with Brew and then run npm install:
+```
+brew install pkg-config cairo libpng jpeg giflib
+```
+
 The following configuration:
 
 ```
@@ -28,8 +47,4 @@ should create a testimage.png file in the project root directory with this conte
 
 ![alt text](https://github.com/rmarchet/test-chartjs-node/blob/master/testimage.png)
 
-If running MacOS you probably need to install some packages with Brew:
 
-```
-brew install pkg-config cairo libpng jpeg giflib
-```
