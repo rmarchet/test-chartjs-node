@@ -43,3 +43,6 @@ The following configuration:
 should create a testimage.png file in the project root directory with this content:
 
 ![alt text](https://github.com/rmarchet/test-chartjs-node/blob/master/testimage.png)
+
+Just refer to Chart.js documentation to see more examples and config settings:
+https://www.chartjs.org
