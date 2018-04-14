@@ -16,35 +16,25 @@ or
 node index.js
 ```
 
-If running on MacOS you probably need to install some packages with Brew and then run npm install:
-```
-brew install pkg-config cairo libpng jpeg giflib
-```
-
-On Windows you'll need to install some dependencies (needed to build node-canvas):
-```
-choco install -y python2 gtk-runtime microsoft-build-tools libjpeg-turbo
-```
-See full docs [here](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)
-
+This version uses canvas-prebuilt so it does not have dependency issues and should run fine without package installation before the npm install command.
 
 The following configuration:
 
 ```
 {
-    type: 'pie',
+    type: 'doughnut',
     data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+      labels: ["Africa", "Asia", "Oceania", "Europe", "Latin America", "North America"],
       datasets: [{
         label: "Population (millions)",
-        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-        data: [2478,5267,734,784,433]
+        backgroundColor: ["#76F793", "#22C1DC","#00AC66","#FF8400","#895494","#FF066A"],
+        data: [2078, 419, 1167, 734, 784, 633]
       }]
     },
     options: {
       title: {
         display: true,
-        text: 'Predicted world population (millions) in 2050'
+        text: 'Predicted world population (millions) in 2040'
       }
     }
 }
@@ -53,5 +43,3 @@ The following configuration:
 should create a testimage.png file in the project root directory with this content:
 
 ![alt text](https://github.com/rmarchet/test-chartjs-node/blob/master/testimage.png)
-
-
