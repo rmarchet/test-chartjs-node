@@ -21,6 +21,13 @@ If running on MacOS you probably need to install some packages with Brew and the
 brew install pkg-config cairo libpng jpeg giflib
 ```
 
+On Windows you'll need to install some dependencies (needed to build node-canvas):
+```
+choco install -y python2 gtk-runtime microsoft-build-tools libjpeg-turbo
+```
+See full docs [here](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)
+
+
 The following configuration:
 
 ```
