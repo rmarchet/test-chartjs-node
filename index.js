@@ -1,7 +1,7 @@
 const { CanvasRenderService } = require('chartjs-node-canvas');
 const { fs } = require('fs');
 const Jimp = require('jimp');
-const configuration = require('./sample_data/bars');
+const configuration = require('./sample_data/doughnut');
 const targetImageName = "testimage";
 
 const width = 400;
