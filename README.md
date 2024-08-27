@@ -5,11 +5,11 @@ This script is intended to test chartjs-node and create a PNG image starting fro
 ## Getting Started
 To get things started just clone this project and run:
 ```
-npm install
+yarn
 ```
 and then:
 ```
-npm start
+yarn start
 ```
 or
 ```
