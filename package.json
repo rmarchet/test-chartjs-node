@@ -1,7 +1,7 @@
 {
-  "name": "test-chart",
-  "version": "1.0.0",
-  "description": "test chartjs to png",
+  "name": "test-chartjs-node",
+  "version": "1.0.1",
+  "description": "Use Chart.js to generate a chart and save to png file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,9 +10,8 @@
   "author": "Roberto Marchetti",
   "license": "ISC",
   "dependencies": {
-    "chart.js": "^4.4.4",
-    "chartjs-node-canvas": "^4.1.6",
-    "hoek": "^6.1.3",
+    "chart.js": "4.4.4",
+    "chartjs-plugin-datalabels": "^2.2.0",
     "jimp": "^0.22.12"
   },
   "repository": {
