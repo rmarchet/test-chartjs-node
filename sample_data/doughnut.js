@@ -5,7 +5,7 @@ var configuration = {
     datasets: [{
       label: "Population (millions)",
       backgroundColor: ["#76F793", "#22C1DC","#00AC66","#FF8400","#895494","#FF066A"],
-      data: [3101, 327, 1091, 734, 784, 577]
+      data: [3001, 207, 1091, 794, 784, 577]
     }]
   },
   options: {

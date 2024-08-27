@@ -10,6 +10,7 @@
   "author": "Roberto Marchetti",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^2.11.2",
     "chart.js": "4.4.4",
     "chartjs-plugin-datalabels": "^2.2.0",
     "jimp": "^0.22.12"
